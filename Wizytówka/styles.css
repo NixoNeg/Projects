@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    line-height: 128%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: var(--text);
+    cursor: default;
+    transition: 0.2s;
+}
+
+body, html {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(src/background.jpg)
+}
+
+.container {
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 40px; 
+}
+
+p {
+    margin: 10px;
+    font-size: 18px; 
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.skills, .traits {
+    margin-top: 20px;
+}
+
+.skills h2, .traits h2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skills ul, .traits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .traits li {
+    font-size: 18px; 
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills li i, .traits li i {
+    margin-right: 8px;
+    color: #007BFF; 
+}
+
+.skills li:hover, .traits li:hover {
+    background-color: #e7e7e7;
+}
